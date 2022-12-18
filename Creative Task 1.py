@@ -1,3 +1,5 @@
+from cmu_graphics import *
+
 ##### THE FALLEN CASTLE :'(
 #####Click WASD to move the Wizard 
 #####Left-click to show Wizard's Palace after a long war 
@@ -291,6 +293,8 @@ def onMouseRelease(mouseX, mouseY):
 
 
  
+if __name__ == "__main__":
+    cmu_graphics.run()
 
 
 
